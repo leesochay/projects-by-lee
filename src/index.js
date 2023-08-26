@@ -2,12 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import leePhoto from './LeeSochay.jpg';
 
-const page = (
+function App() {
+    return (
+    
     <div>
+        <header>
+            <p>LEE SOCHAY</p>
+            <figure class="headshot">
+                <img src={ leePhoto } alt="Lee Sochay Headshot" width="50" height="60"></img>
+            <figcaption>Aspiring Full Stack Developer</figcaption>
+            </figure>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+       
         <section class="rocks">
             <section class="salutation">
                 <h1>Hey, Howdy, Hi!</h1>
-                <img src={ leePhoto } alt="Lee Sochay Headshot" width="50" height="60"></img>
+                
                 <p>I'm Lee</p>
             </section>
                 <ul>
@@ -18,7 +34,9 @@ const page = (
                 </ul>
         </section>
     </div>
-)
 
-// document.getElementById("root").append(JSON.stringify(page))
-ReactDOM.render(page, document.getElementById('root'));
+)
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
