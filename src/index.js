@@ -2,23 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import leePhoto from './LeeSochay.jpg';
 
+function Header() {
+    return (
+<header>
+    <p>LEE SOCHAY</p>
+    <figure class="headshot">
+        <img src={ leePhoto } alt="Lee Sochay Headshot" width="50" height="60"></img>
+    <figcaption>Aspiring Full Stack Developer</figcaption>
+    </figure>
+    <nav>
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+	)}
+
+
 function App() {
     return (
     
 <div>
-        <header>
-            <p>LEE SOCHAY</p>
-            <figure class="headshot">
-                <img src={ leePhoto } alt="Lee Sochay Headshot" width="50" height="60"></img>
-            <figcaption>Aspiring Full Stack Developer</figcaption>
-            </figure>
-            <nav>
-                <a href="/">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+	<Header />
         <section class="rocks">
             <section class="salutation">
                 <h1>Hey, Howdy, Hi!</h1>
@@ -164,14 +170,20 @@ function App() {
 				</article>
 			</section>
 		</section>
+		<Footer />
+</div>
+)}
+
+function Footer() {
+    return (
 		<footer>
 			<p id="author">Created and Maintained by Eleemone Productions</p>
 			<p>&copy; 2023 Eleemone Productions</p>
 		</footer>
-</div>
-
-)
-}
+)}
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+	<App />,
+	document.getElementById('root')
+	);
