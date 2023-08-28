@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/projects-by-lee/static/css/main.2343fd27.css",
+    "main.js": "/projects-by-lee/static/js/main.1a0df3ba.js",
+    "static/media/LeeSochay.jpg": "/projects-by-lee/static/media/LeeSochay.ff38cd41aa1bcc07ff4d.jpg",
+    "index.html": "/projects-by-lee/index.html",
+    "main.2343fd27.css.map": "/projects-by-lee/static/css/main.2343fd27.css.map",
+    "main.1a0df3ba.js.map": "/projects-by-lee/static/js/main.1a0df3ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2343fd27.css",
+    "static/js/main.1a0df3ba.js"
+  ]
+}
