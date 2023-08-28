@@ -1,4 +1,65 @@
-html, body {
-margin: 0;
-padding: 0;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: #52002C;
+    padding: 10px;
+}
+
+.headshot {
+    display: flex;
+    align-items: center;
+    margin: auto 25px;
+    font-weight: bold;
+}
+
+.leephoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-list li {
+    padding: 10px;
+}
+
+.caption {
+    text-align: center;
+    margin: auto 15px;
+    color: #D8B964;
+}
+
+.nav-link {
+    background-color: #D8B964;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #52002C;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #52002C;
+    color: #D8B964;
 }
