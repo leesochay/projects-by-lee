@@ -1,5 +1,5 @@
 import React from 'react';
-import leePhoto from './LeeSochay.jpg';
+import leePhoto from '../images/LeeSochay.jpg';
 
 function Header() {
     return (
