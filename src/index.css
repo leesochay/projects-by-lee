@@ -63,3 +63,19 @@
     background-color: #52002C;
     color: #D8B964;
 }
+
+.rocks {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+	height: auto;
+    width: 100%;
+    margin-bottom: 25px 0;
+	background-color: #E6E3D3;
+}
+
+.highlights {
+    margin: 25px 0px;
+    list-style: none;
+}

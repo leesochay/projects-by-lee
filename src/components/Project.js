@@ -4,18 +4,13 @@ function Project () {
 	return (
 <>
 <section className="rocks">
-            <section className="salutation">
-                <h1>Hey, Howdy, Hi!</h1>
-                
-                <p>I'm Lee</p>
-            </section>
-                <ul>
-                    <li>A Student at the Michigan State University Coding Bootcamp.</li>
-                    <li>Building the foundation of web development with HTML, CSS, and JavaScript.</li>
-                    <li>Learning the skills for full-stack development including working with servers, databases, and APIs.</li>
-                    <li>Learning to use the cutting-edge tools to optimize applications for speed and efficiency.</li>
-                </ul>
-        </section>
+	<ul className="highlights">
+        <li>A Student at the Michigan State University Coding Bootcamp.</li>
+        <li>Building the foundation of web development with HTML, CSS, and JavaScript.</li>
+        <li>Learning the skills for full-stack development including working with servers, databases, and APIs.</li>
+        <li>Learning to use the cutting-edge tools to optimize applications for speed and efficiency.</li>
+    </ul>
+</section>
 		<section className="about" id="about">
 			<h2>ABOUT ME</h2>
 			<p>Here you will find information about me, like my formal education, where I've worked,<br />
