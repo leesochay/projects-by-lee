@@ -1,5 +1,10 @@
 import React from 'react';
 import About from "./About"
+import prework from '../images/PreworkstudyguideScreenshot.jpg';
+import refractor from '../images/Refractor-Challenge.jpg';
+import proport from '../images/LSPortfolioScreenshot.jpg';
+import placeholder from '../images/placeholder.jpg';
+import background from '../images/SuperiorRocks.jpg';
 
 function Project () {
 	return (
@@ -20,44 +25,44 @@ function Project () {
 				<article  className="firstone">
 					<h3 data-secret="click the picture to see the project" >Pre-work Study Guide</h3>
 					<figure className="challenge">
-						<a href="https://leesochay.github.io/prework-study-guide/"><img src="./assets/images/PreworkstudyguideScreenshot.jpg" alt="Screenshot of the Pre-work Study Guide Webpage" /></a>
+						<a href="https://leesochay.github.io/prework-study-guide/"><img className="prework" src={ prework } alt="Screenshot of the Pre-work Study Guide Webpage"></img></a>
 						<figcaption>Pre-Work Study Guide Screenshot</figcaption>
 					</figure>
 				</article>
 				<article className="next">
 					<h3 data-secret="click the picture to see the project" >Code Refractor Challenge</h3>
 					<figure className="challenge">
-						<a href="https://leesochay.github.io/Horiseon-Code-Refractor-Challenge/"><img src="./assets/images/Module-1-Challenge-screenshot1aScreenshot.jpg" alt="Screenshot of the Horiseon Code Refractor Challenge Webpage" /></a>
+						<a href="https://leesochay.github.io/Horiseon-Code-Refractor-Challenge/"><img className="refractor" src={ refractor } alt="Screenshot of the Horiseon Code Refractor Challenge Webpage" /></a>
 						<figcaption>Code Refactor Challenge Screenshot</figcaption>
 					</figure>
 				</article>
 				<article className="next">
 					<h3 data-secret="click the picture to see the project" >Professional Portfolio</h3>
 					<figure className="challenge">
-						<a href="/"><img src="./assets/images/LeeSochayPortfolioScreenshot.jpg" alt="Screenshot of the Porfolio Webpage" /></a>
+						<a href="https://leesochay.github.io/Lee-Sochay-Portfolio/"><img className="proport" src={ proport } alt="Screenshot of the Porfolio Webpage" /></a>
 						<figcaption>Professional Portfolio Screenshot</figcaption>
 					</figure>
 				</article>
 				<article className="next">
 					<h3 data-secret="click the picture to see the project" >Future</h3>
 					<figure className="challenge">
-						<a href="/"><img src="./assets/images/PlaceholderScreenshot.jpg" alt="This is a placeholder" /></a>
+						<a href="/"><img className="placeholder" src={ placeholder } alt="This is a placeholder" /></a>
 						<figcaption>Placeholder</figcaption>
 					</figure>
 				</article>
 			</section>
 		</section>
-		<section className="contact" id="contact">
+		<section className="contact" id="contact" style={{backgroundImage: `url(${background})`}}>
 				<h2>CONTACT ME</h2>
 				<p>Here you will find information about how to contact me.</p>
 			<section className="contactinfo">
-				<article>
-					<h3>email: <a href="mailto:sochaylee@gmail.com">Lee Sochay</a></h3>
+				<article className="contact-item">
+					<h3>email: <a className="email" href="mailto:sochaylee@gmail.com">Lee Sochay</a></h3>
 				</article>
-				<article>
+				<article className="contact-item">
 					<h3>phone: (517) 555-0100</h3>
 				</article>
-				<article>
+				<article className="contact-item">
 					<address>123 Anystreet<br />
 						Webberville, MI 48892
 					</address>
