@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/projects-by-lee/static/css/main.e152e21e.css",
-    "main.js": "/projects-by-lee/static/js/main.8dc3c39d.js",
+    "main.css": "/projects-by-lee/static/css/main.e0a21335.css",
+    "main.js": "/projects-by-lee/static/js/main.c7b5d459.js",
+    "static/media/placeholder.jpg": "/projects-by-lee/static/media/placeholder.8024803f82ee6fb9adbc.jpg",
+    "static/media/SuperiorRocks.jpg": "/projects-by-lee/static/media/SuperiorRocks.9def3248fdd63b2ce0b4.jpg",
+    "static/media/LSPortfolioScreenshot.jpg": "/projects-by-lee/static/media/LSPortfolioScreenshot.c068c84f6d65c431eb74.jpg",
+    "static/media/PreworkstudyguideScreenshot.jpg": "/projects-by-lee/static/media/PreworkstudyguideScreenshot.b04a1fbc8cccaf17d6ce.jpg",
+    "static/media/Refractor-Challenge.jpg": "/projects-by-lee/static/media/Refractor-Challenge.960efc8e05673d27ad9f.jpg",
     "static/media/LeeSochay.jpg": "/projects-by-lee/static/media/LeeSochay.ff38cd41aa1bcc07ff4d.jpg",
     "index.html": "/projects-by-lee/index.html",
-    "main.e152e21e.css.map": "/projects-by-lee/static/css/main.e152e21e.css.map",
-    "main.8dc3c39d.js.map": "/projects-by-lee/static/js/main.8dc3c39d.js.map"
+    "main.e0a21335.css.map": "/projects-by-lee/static/css/main.e0a21335.css.map",
+    "main.c7b5d459.js.map": "/projects-by-lee/static/js/main.c7b5d459.js.map"
   },
   "entrypoints": [
-    "static/css/main.e152e21e.css",
-    "static/js/main.8dc3c39d.js"
+    "static/css/main.e0a21335.css",
+    "static/js/main.c7b5d459.js"
   ]
 }
