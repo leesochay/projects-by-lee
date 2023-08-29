@@ -1,29 +1,12 @@
 # Projects by Lee
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Table of Contents (Optional)
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Questions](#questions)
-
 ## Description
+This is a beginning template for a portfolio highlighting projects that can be used when applying for jobs or when trying to work as a freelancer. having a portfolio to show off skills is a must.
 
+This portfolio was created using React. Just by being able to show the skills with React can provide an edge as a candidate for employment.
 
-## Installation
-
-
-## Usage
-
-
-## Contributing
-
-
-## Tests
-
+This application is deployed at 
 
 ## License
 MIT License
