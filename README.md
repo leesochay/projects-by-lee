@@ -2,11 +2,11 @@
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This is a beginning template for a portfolio highlightingBeing a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
+This is a beginning template for a portfolio highlighting projects that can be used when applying for jobs or when trying to work as a freelancer. having a portfolio to show off skills is a must.
 
-Now that you’ve completed multiple projects, your task is to create a portfolio, using your new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
+This portfolio was created using React. Just by being able to show the skills with React can provide an edge as a candidate for employment.
 
-Just as you did in the module project, you’ll need to deploy this application to GitHub Pages. Follow the same instructions that you did for the project to create a build that you can deploy.
+This application is deployed at 
 
 ## License
 MIT License
