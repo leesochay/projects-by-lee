@@ -132,7 +132,6 @@ article {
 	margin: 10px;
 	border-style: solid;
     border-radius: 10px;
-	background-color: var(--art-bg-color);
 	color: #1D4154;
 }
 
@@ -151,3 +150,117 @@ article ul {
 	font-size: 16px;
 	padding: 6px 0;
 }
+
+.projects {
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px 0;
+	background-color: #E6E3D3;
+}
+
+.projects h2 {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: darkgreen;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.projects p {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: darkgreen;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.currentprojects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.firstone {
+	flex: 0 0 200px;
+}
+
+.next {
+	flex: 0 0 200px;
+}
+
+.challenge img {
+	width: 300px;
+    height: 200px;
+    object-fit: contain;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.challenge figcaption {
+	color:darkgreen;
+    font-family: 'Lucida Console', 'Arial', 'Ebrima';
+	text-align: center;
+	margin: 0 10px;
+}
+
+.currentprojects h3{
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: darkgreen;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 6px 0;
+}
+
+.contact {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: auto;
+    width: 100%;
+}
+
+.contact h2 {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.contact p {
+	text-align: center;
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #1D4154;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.contactinfo h3, address{
+	font-family: 'Arial', 'Ebrima', 'Lucida Console';
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 6px 0;
+}
+
+.contact-item {
+    background-color: #2a607c;
+}
+
+.email:link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+.email:visited {
+    text-decoration: none;
+    color: #ffffff;
+  }
